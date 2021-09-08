@@ -1,4 +1,4 @@
 # read text from console and echo back
-text = input('Kirjoita jotain tekstiä: ')
+text = input(' juuuuuuuuu Kirjoita jotain tekstiä: ')
 print("Kirjoitit: ")
 print(text)
