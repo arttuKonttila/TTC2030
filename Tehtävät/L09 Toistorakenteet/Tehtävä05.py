@@ -1,8 +1,12 @@
 import random
+lotto_rivi = []
 def lotto():
-    i = 0
-    lotto_rivi = random.randrange(range(1, 40), 7)
-    for num in lotto_rivi:
-        print(num, end ="")
+    for i in range(0,7):
+        n = random.randint(1, 40)
+        lotto_rivi.append(n)
+    for n in lotto_rivi:
+        printed = []
+        printed.append(n)
+        print(str(n) + ",", end="")
 lotto()
 
