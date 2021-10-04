@@ -6,4 +6,4 @@ second_number = int(input("Anna toinen kokonaisluku: "))
 summa = first_number + second_number
 
 # print the total of the numbers
-print("Summa: ", summa)
+print("Summa:", summa)
