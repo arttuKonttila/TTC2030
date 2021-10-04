@@ -7,5 +7,7 @@ while i < len(points):
     i += 1
 tulos = tulos - max(points)
 tulos = tulos - min(points)
-print(tulos)
+print("Total points are:", tulos)
+
+
 

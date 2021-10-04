@@ -1,3 +1,3 @@
-def substract(num1, num2):
+def subtract(num1, num2):
     sum = num1 - num2
     return sum
