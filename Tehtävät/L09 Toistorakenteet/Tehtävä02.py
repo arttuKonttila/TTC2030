@@ -9,5 +9,5 @@ while user_input != "":
     luku_counter += 1
 
         
-print("Lukuja annettu: ", luku_counter)
-print("Lukujen summa: ", user_input_sum)
+print("Lukuja annettu:", luku_counter)
+print("Lukujen summa:", user_input_sum)
