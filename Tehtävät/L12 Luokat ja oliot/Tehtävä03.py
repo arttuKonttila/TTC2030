@@ -7,7 +7,7 @@ class Car:
         self.model = model
         self.price = price
     def __str__(self):
-        return self.brand + " " + self.model + " " + str(self.price)
+        return self + ": " + self.brand + " " + self.model + " " + str(self.price)
 
 car1 = Car("Skoda", "Octavia", 3000)
 car2 = Car("Audi", "A4", 4000)

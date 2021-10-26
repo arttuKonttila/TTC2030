@@ -10,6 +10,6 @@ class Human:
     age = 0
 
 adam = Human("Adam", 18)
-eva = Human("Eva", 18)
+eva = Human("Eve", 18)
 print(eva.__str__())
 print(adam.__str__())
