@@ -23,13 +23,13 @@ cars.append(Car("volkswagen", "LQR-767"))
 # sort list by brand and print it out
 cars.sort(key=lambda x: x.brand)
 for car in cars:
-    print(car.brand + "" + car.registery_plate)
+    print(car.brand + " " + car.registery_plate)
 
 # vertical line for demonstration purposes
-print("-----------------------------------------------------")
+print("---------------------")
 
 #sort list by registery plate and print it out
 cars.sort(key=lambda x: x.registery_plate)
 for car in cars:
-    print(car.brand + "" + car.registery_plate)
+    print(car.brand + " " + car.registery_plate)
 

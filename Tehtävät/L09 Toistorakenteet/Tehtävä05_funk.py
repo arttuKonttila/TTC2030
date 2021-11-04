@@ -11,3 +11,5 @@ def lotto():
     string = string.rstrip(',')
     # palauta arvottu lottorivi merkkijonona muodossa '1,3,5,10,20,33,39'
     return string
+
+print(lotto())
