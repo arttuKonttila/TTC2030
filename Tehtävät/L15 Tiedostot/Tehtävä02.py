@@ -22,3 +22,4 @@ for name in name_list:
     if previous_names.count(name) == 0:
         previous_names.append(name)
         print("{} came up {} times".format(name, num))
+fp.close()

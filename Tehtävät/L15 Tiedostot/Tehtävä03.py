@@ -28,3 +28,4 @@ for name in name_list:
 sorted_name_list.sort()
 for name in sorted_name_list:
     print(name)
+fp.close()
