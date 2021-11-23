@@ -1,7 +1,6 @@
 string_list = ["Arttu", "Kalle", "Jussi", "Jaakko", "Jere"]
-result = False
 
-while result != True:
+while True:
     try:
         user_input_index = input("Enter index to save data on: ")
         user_input_data = input("Enter data to save on index location: ")
@@ -10,7 +9,7 @@ while result != True:
         print("Index was out of scope, try again")
         pass
     else:
-        result = True
-
+        break
+    
 for string in string_list:
     print(string)

@@ -1,4 +1,7 @@
 #try rakenteella voi napata sen itse kutsuman TypeErrorin ja toteuttaa koodia sen perusteella
+from typing import Type
+
+
 def isfloat(num):
     try:
         float(num)
@@ -26,7 +29,7 @@ def isthiszero(num):
             if(num == 0):
                 return True
             elif(num != 0):
-                return False 
+                return False
     else:
         raise TypeError
     
